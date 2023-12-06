@@ -2,11 +2,12 @@ extends Node2D
 
 
 func _ready():
-	print('Day 5')
+	pass
+	#print('Day 5')
 	#run_1(Global.get_file_lines("day-5/test-1.txt"))
 	#run_1(Global.get_file_lines("day-5/part-1.txt"))
 	#run_2(Global.get_file_lines("day-5/test-1.txt")) # same as part 1
-	run_2(Global.get_file_lines("day-5/part-1.txt")) # same as part 1
+	#run_2(Global.get_file_lines("day-5/part-1.txt")) # same as part 1
 
 func run_1(lines):
 	var seeds = Array(lines[0].substr(7,-1).split(' '))

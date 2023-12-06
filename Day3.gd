@@ -20,8 +20,7 @@ func run_1(lines):
 
 func run_2(lines):
 	Global.pretty_print_array(lines)
-	print('Result part 2 : ' + '')
-	pass
+	print('Result part 2 : ?')
 	
 # ---
 
@@ -31,10 +30,6 @@ func build_grid(lines):
 		var row = lines[i].split('')
 		grid.append(row)
 	return grid
-	
-	# 0..
-	# ...
-	# ...
 	
 func check_neighbors(position, length, grid):
 	var x = position.x
@@ -46,5 +41,6 @@ func check_neighbors(position, length, grid):
 			neighbors.append(grid[x-1][y-1]) # top left
 		if y < grid.size(): 
 			neighbors.append(grid[x-1][y+1]) # bottom-left
+		# TODO
 		
 	return false

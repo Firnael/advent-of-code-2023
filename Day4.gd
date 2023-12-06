@@ -1,7 +1,8 @@
 extends Node2D
 
 func _ready():
-	print('Day 4')
+	pass
+	#print('Day 4')
 	#run_1(Global.get_file_lines("day-4/test-1.txt"))
 	#run_1(Global.get_file_lines("day-4/part-1.txt"))
 	#run_2(Global.get_file_lines("day-4/test-2.txt"))

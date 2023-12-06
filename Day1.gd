@@ -1,10 +1,11 @@
 extends Node2D
 
 func _ready():
-	print('Day 1')
+	pass
+	#print('Day 1')
 	#run_1(Global.get_file_lines("day-1/test-1.txt"))
-	#run_2(Global.get_file_lines("day-1/test-2.txt"))
 	#run_1(Global.get_file_lines("day-1/part-1.txt"))
+	#run_2(Global.get_file_lines("day-1/test-2.txt"))
 	#run_2(Global.get_file_lines("day-1/part-2.txt"))
 	
 func run_1(lines):

@@ -18,3 +18,10 @@ func get_file_lines(path):
 func pretty_print_array(array):
 	for x in array:
 		print(x)
+		
+func pretty_print_dict(dict):
+	print('{')
+	for k in dict:
+		var v = dict[k]
+		print('  ' + str(k) + ': ' + str(v))
+	print('}')

@@ -34,9 +34,10 @@ var int_to_str_mapping = {
 }
 
 func _ready():
-	print('Day 7')
+	pass
+	#print('Day 7')
 	#run(Global.get_file_lines("day-7/test-1.txt"))
-	run(Global.get_file_lines("day-7/part-1.txt"))
+	#run(Global.get_file_lines("day-7/part-1.txt"))
 	
 # this is part 2 solution, I erased part 1 because f*ck this puzzle
 func run(lines):

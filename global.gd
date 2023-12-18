@@ -14,11 +14,22 @@ func get_file_lines(path):
 	var lines = Array(content.split('\n')) # casting the PackedStringArray to normal array
 	lines.pop_back()  # godot adds an empty last line, remove it
 	return lines
+	
+func build_grid(lines):
+	var grid = []
+	for i in range(0, lines.size()):
+		var row = Array(lines[i].split(''))
+		grid.append(row)
+	return grid
 
 func pretty_print_array(array):
-	for x in array:
-		print(x)
-		
+	print(','.join(array))
+
+func pretty_print_grid(grid):
+	for i in range(0, grid.size()):
+		var row = grid[i]
+		print(''.join(row))
+	
 func pretty_print_dict(dict):
 	print('{')
 	for k in dict:

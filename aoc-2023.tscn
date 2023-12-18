@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://dwm8gg4muvp7b"]
+[gd_scene load_steps=10 format=3 uid="uid://dwm8gg4muvp7b"]
 
 [ext_resource type="Script" path="res://Day1.gd" id="1_8y2iy"]
 [ext_resource type="Script" path="res://Day2.gd" id="2_p36wy"]
@@ -6,6 +6,9 @@
 [ext_resource type="Script" path="res://Day5.gd" id="4_huxng"]
 [ext_resource type="Script" path="res://Day6.gd" id="5_716ue"]
 [ext_resource type="Script" path="res://Day7.gd" id="6_vojsx"]
+[ext_resource type="Script" path="res://Day8.gd" id="7_umb2u"]
+[ext_resource type="Script" path="res://Day9.gd" id="8_trt3f"]
+[ext_resource type="Script" path="res://Day10.gd" id="9_kdway"]
 
 [node name="AoC-2023" type="Node2D"]
 
@@ -26,3 +29,12 @@ script = ExtResource("5_716ue")
 
 [node name="Day7" type="Node" parent="."]
 script = ExtResource("6_vojsx")
+
+[node name="Day8" type="Node" parent="."]
+script = ExtResource("7_umb2u")
+
+[node name="Day9" type="Node" parent="."]
+script = ExtResource("8_trt3f")
+
+[node name="Day10" type="Node" parent="."]
+script = ExtResource("9_kdway")
